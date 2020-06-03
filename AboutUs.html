@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="maximum-scale=1.0,width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
@@ -76,29 +76,36 @@
 <body style="font-family:'Lato';">
 
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top " style="background-color:#707070;opacity: 0.5;">
-        <a class="navbar-brand" href="#">
-            <img src="images/sbIcon.png" alt="Logo" style="width:50px; height:50px;">
-        </a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/sbIcon.png" alt="Logo" style="width:50px; height:50px;">
+            </a>
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><b>SANGEETHA BHARATHI NZ </b></a>
+                        &nbsp;&nbsp; <small style="color:#FFFFFF;"><i>A School of Carnatic Music</i></small>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html" style="color:#FFFFFF;">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="OurTeam.html" style="color:#FFFFFF;">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="ContactUs.html" style="color:#FFFFFF;">GET IN TOUCH</a>
+                    </li>
+                </ul>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html"><b>SANGEETHA BHARATHI NZ </b></a>
-                    &nbsp;&nbsp; <small style="color:#FFFFFF;"><i>A School of Carnatic Music</i></small>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="AboutUs.html" style="color:#FFFFFF;">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="OurTeam.html" style="color:#FFFFFF;">OUR TEAM</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="ContactUs.html" style="color:#FFFFFF;">GET IN TOUCH</a>
-                </li>
-            </ul>
-
+            </div>
         </div>
     </nav>
 
@@ -184,9 +191,9 @@
             </table>
         </div>
     </div>
-    <div>
+    <div class="container-fluid">
         &nbsp;
-        <div class="row featurette" style="display:block;position:relative;padding: 200px;">
+        <div class="row featurette" style="padding: 200px;">
             <div class="col-md-12">
                 <p style="font-family:'Lato';text-align: justify;font-size: 16px;">
                     The great saint Thyagaraja trained several disciples during his time in the Tanjaore district and
@@ -249,7 +256,11 @@
         </div>
     </div>
 
-
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2004-2020 Sangeetha Bharathi Music School, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
 
 </body>
 
