@@ -16,6 +16,11 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="assets/dist/js/bootstrap.bundle.js"></script>
+
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -96,14 +101,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="AboutUs.html" style="color:#FFFFFF;">ABOUT US</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="OurTeam.html" style="color:#FFFFFF;">OUR TEAM</a>
+                <li class="nav-item dropdown">
+                    <a style="color:#FFFFFF;" class="nav-link dropdown-toggle" href="#" id="navbarOurTeamE" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        OUR TEAM
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarOurTeamE">
+                        <a class="dropdown-item" href="OurTeam.html">MEET OUR TEAM</a>
+                        <a class="dropdown-item" href="Events.html">VIEW OUR EVENTS</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="ContactUs.html" style="color:#FFFFFF;">GET IN TOUCH</a>
                 </li>
             </ul>
-
         </div>
     </nav>
 
@@ -182,9 +193,9 @@
 
     <!-- FOOTER -->
     <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2004-2020 Sangeetha Bharathi Music School, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-          </footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2004-2020 Sangeetha Bharathi Music School, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
 </body>
 
 </html>
